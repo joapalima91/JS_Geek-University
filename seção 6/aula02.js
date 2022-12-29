@@ -29,6 +29,9 @@ function outra(z){
 const ret = outra(somar)
 //console.log(ret(3,6));
 
-/*
 
-*/
+function mensagem(){
+    console.log(`Evolua seu lado geek!`)
+}
+
+mensagem() // executando a função
