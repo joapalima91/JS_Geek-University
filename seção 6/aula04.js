@@ -75,7 +75,7 @@ console.log(somar4(0,0,0)) // 0
 
 console.log(somar4('a','b','c')) // 'abc'
 console.log(somar4(true, false,'c')) //1c
-console.log(somar4(2, true, false)) // 3 + (true é igual) a 1 + (false é igual) a 0
+console.log(somar4(2, true, false)) // 3 + (true é igual a 1) + (false é igual a 0)
 */
 
 function somar5(num1=1, num2=2, num3=3){
