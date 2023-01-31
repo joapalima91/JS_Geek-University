@@ -1,4 +1,5 @@
 // aprendendo funçoes Closures (contexto léxico de uma função)
+
 /*
 let xuxa = 'Global'; // pode ser acessada globalmente no nosso projeto
 
