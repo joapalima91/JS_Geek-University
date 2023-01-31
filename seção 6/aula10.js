@@ -18,7 +18,7 @@ outra();
 let variavel = "Global";
 
 function externa(){
-    let variavel = 'Local';
+    let variavel = 'Local'; // se essa variável não existir, vai retornar "Global"
 
     function interna(){
         return variavel;// retorno - local
