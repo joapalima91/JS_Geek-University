@@ -15,10 +15,3 @@ class Carro{
         this.modelo = modelo;
     }
 }
-
-
-const joao = new Pessoa('João', 'Lima');
-console.log(joao)
-
-const fit = new Carro('Hatch')
-console.log(fit)
