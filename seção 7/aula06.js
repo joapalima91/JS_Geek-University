@@ -52,7 +52,7 @@ class Carro {
     return this._marca;
   }
 
-  // não tem "set" pois já é fixado no atibuto - se não fosse fixado teria um "set" para marca também
+  // marca não tem "set" pois já é fixado no atibuto - se não fosse fixado teria um "set" para marca também
 
   get modelo() {
     return this._modelo;
