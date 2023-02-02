@@ -20,7 +20,7 @@ class Pessoa {
   }
 
   get sobrenome() {
-    return this.sobrenome;
+    return this._sobrenome;
   }
 
   set sobrenome(sobrenome) {
@@ -85,7 +85,7 @@ console.log(curso)
 */
 
 // Instanciação de Objetos - Forma 2 - Objeto Literal
-
+/*
 const programa = {
   nome: "Photoshop",
   preco: 8999.99,
@@ -100,6 +100,7 @@ const programa = {
     filiais: [{ cidade: "Rio de Janeiro" }, { cidade: "Recife" }],
   },
 };
+*/
 
 /*
 console.log(programa);
@@ -121,4 +122,50 @@ console.log(programa.fabricante.filiais.length); // TypeError
 */
 
 // Instanciação de Objetos - Forma 3 - Objeto Literal
+/*
+const pessoa = {};
+console.log(typeof(pessoa)); // object
+
+pessoa.nome = 'João Lima';
+console.log(pessoa);
+*/
+
+// Instanciação de Objetos - Forma 4 - Função Construtora
+/*
+function Lampada(cor){
+  this.cor = cor;
+}
+
+const l1 = new Lampada('Branca'); // instanciando objeto
+console.log(l1); // imprime objeto
+console.log(typeof(l1)); // imprime o tipo
+*/
+
+// Instanciação de Objetos - Forma 5 - Objeto a partir das nossas classes
+/*
+const p1 = new Pessoa('João', 'Sobrenome');
+console.log(p1);
+console.log(typeof(p1));
+console.log(p1.nome); // função get
+console.log(p1.sobrenome); // função get
+
+p1.nome = 'Maria'; // metodo set - setando um novo nome
+console.log(p1); // imprimindo maria como nome
+
+p1.falar('oi totonha');
+p1.comer();
+p1.beber();
+
+p1.nome = 'Eva';
+console.log(p1); 
+p1.falar('Oi Janjão');
+p1.comer();
+p1.beber();
+*/
+
+const fit = new Carro('Fit');
+fit.imprimir(); // imprime marca e modelo - Honda Fit
+
+const civic = new Carro('Civic');
+civic.imprimir(); // imprime marca e modelo - Honda Civic
 
