@@ -25,9 +25,3 @@ Object.entries(curso).forEach(([chave, valor]) => {
 curso.nome = 'Criação de APIs Rest com Django Rest Framework'; // alterando nome do curso
 console.log(curso);
 */
-function inicio (){
-    let nome = window.prompt('Qual seu nome? ');
-    window.alert(`Olá, ${nome}! É um prazer te conhecer`);
-}
-
-console.log(inicio());
